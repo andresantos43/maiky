@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,174,1) 100%);
+color: white;
+
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: palegreen;
+    padding-top:50px ;
+    padding-left:50px ;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    padding: 20px;
+    margin: 10px;
+    display:inline-block;
+    border: 2px solid white;
+    text-align: center;
+
+}
+#cajita1{
+    margin: 10PX 100px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    border: 10px dashed rgb(226, 43, 73);
+}
+#cajita2{
+    padding-block:25px 25px ;
+    background-color: rgb(43, 226, 141);
+    border: 10px inset rgb(128, 32, 218);
+}
+#cajita3{
+    margin: 10PX 100px 20px 20px;
+    background-color: rgb(98, 32, 159);
+    border: 10px ridge rgb(120, 250, 0);margin: 10PX 100px 20px 20px;
+}
+#cajita4{
+    padding-block:20px 20px ;
+    background: linear-gradient(rgb(0, 255, 221),rgb(255, 0, 157));
+    border: 10px groove white;
+    
+}
+#cajita5{
+    margin: 10PX 100px 20px 20px;
+    background:#0abaff ;
+    border: 10px double rgb(8, 6, 10);margin: 10PX 100px 20px 20px;
+    transform: rotate(26deg);
+    padding-block:20px 20px ;
+    background: linear-gradient(rgb(255, 0, 0));
+    border: 10px groove white;
+}
+#cajita6{
+    box-shadow: 50px 0px 100px greenyellow;
+    background-color: aqua;
+    border-radius: 10% 50% 30% 50%;
+}
+#cajita7{
+    box-shadow: 0px 50px  red;
+    background-color: rebeccapurple;
+    border-radius: 50% 0% 0% 50%;
+}
+#cajita8{
+    box-shadow: 50px 0px 100px white;
+    background-color: violet;
+    border-radius: 50% 0% 50% 0%;
+}
+#cajita9{
+    box-shadow: 0px 50px  violet;
+    background-color: blueviolet;
+    border-radius: 10% 10% 100% 50%;
+}
+#cajita10{
+    box-shadow: 50px 0px 100px palevioletred;
+    background-color: yellowgreen;
+    border-radius: 50% 60% 30% 50%;
+}
+

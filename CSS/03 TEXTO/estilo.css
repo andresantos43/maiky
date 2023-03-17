@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+}
+h1{
+    font-family: 'Comic Neue', cursive;
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("fonts/Roboto-Bold.ttf")format("truetype");
+}
+.Karla{
+    font-family: 'Roboto', sans-serif;
+}
+.Dancing Script{
+    font-family: 'Roboto', sans-serif;
+}
+.Open{
+    font-family: 'Open Sans', sans-serif;
+}
+.Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.kanit{
+    font-family: 'Kanit', sans-serif;
+}
+.Smokum{
+    font-family: 'Smokum', cursive;
+}
+.Iz{
+    text-align: left;
+    
+}   
+.Der{
+    text-align: right;
+    
+}
+.Cen{
+    text-align: center;
+    
+}
+.Jus{
+    text-align: justify;
+}
+.inter1{
+ line-height: 1.2;
+ font-size: 1em
+}
+
