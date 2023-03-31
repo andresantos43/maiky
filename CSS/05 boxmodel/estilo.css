@@ -29,6 +29,7 @@ div{
     margin: 10PX 100px 20px 20px;
     background-color: rgb(255, 255, 255);
     border: 10px dashed rgb(226, 43, 73);
+    
 }
 #cajita2{
     padding-block:25px 25px ;
@@ -39,6 +40,7 @@ div{
     margin: 10PX 100px 20px 20px;
     background-color: rgb(98, 32, 159);
     border: 10px ridge rgb(120, 250, 0);margin: 10PX 100px 20px 20px;
+    transform: rotate(1080deg);
 }
 #cajita4{
     padding-block:20px 20px ;
@@ -75,9 +77,13 @@ div{
     background-color: blueviolet;
     border-radius: 10% 10% 100% 50%;
 }
-#cajita10{
+#cajita10:hover{
+    font-size: 72px;
     box-shadow: 50px 0px 100px palevioletred;
     background-color: yellowgreen;
     border-radius: 50% 60% 30% 50%;
+    transition: 3s all ease;
+    transform: scale(1.5);
+    transform: rotate(1123deg);
 }
 
